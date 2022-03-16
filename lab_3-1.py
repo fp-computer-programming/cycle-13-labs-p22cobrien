@@ -7,6 +7,6 @@ def r_max(nested_num_lst):
             if type(element) > total:
                 total = r_max(element) 
 
-        return total
+    return total
 
 print(r_max([1,2,3[23,44],55]))
